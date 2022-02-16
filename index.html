@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Imersão Dev Alura - Aula 04 / Desafio 1, 2, 3 e 4</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      AluraMangá
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+      alt="">
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <p class="page-subtitle">
+    Qual seu filme favorito?
+  </p>
+  <div class="center">
+    <p id="mensagem" class="center alocation"></p>
+    <input id="linkAnime" type="text" class="form-wrapper" onclick="LimparMensagem()"
+      placeholder="Digite o link da imagem.">
+    <p class="center">
+      <a class="botao-form center" type="submit" onclick="Salvar()"><span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Adicionar Filme
+      </a>
+    </p>
+  </div>
+  <p id="listaMangas" class="center"></p>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
